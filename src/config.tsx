@@ -60,16 +60,7 @@ export const CONFIG: Config = {
             url: 'https://www.linkedin.com/in/oussama-elayeb-a853a6219/',
             icon: 'linkedin',
         },
-        // {
-        //     name: 'X',
-        //     url: 'https://x.com/Naderferjani',
-        //     icon: 'x',
-        // },
-        // {
-        //     name: 'Upwork',
-        //     url: 'https://www.upwork.com/freelancers/~0108a6d64ff5b64440',
-        //     icon: 'upwork',
-        // },
+
         {
             name: 'oussamaelayeb00@gmail.com',
             url: 'oussamaelayeb00@gmail.com',
@@ -111,8 +102,9 @@ export const CONFIG: Config = {
             url: 'https://unow.tn/',
             tags: [
                 { name: 'React', icon: 'react' },
-                { name: 'TypeScript', icon: 'typescript' },
+                { name: 'JavaScript', icon: 'javascript' },
                 { name: 'Tailwind CSS', icon: 'tailwindcss' },
+                { name: 'Material UI', icon: 'materialui' },
                 { name: 'WebRTC', icon: 'webRTC' },
             ],
             featured: true,
@@ -126,6 +118,7 @@ export const CONFIG: Config = {
             tags: [
                 { name: 'Expo', icon: 'expo' },
                 { name: 'React Native', icon: 'react' },
+                { name: 'TypeScript', icon: 'typescript' },
                 { name: 'Tailwind CSS', icon: 'tailwindcss' },
                 { name: 'Nativewind', icon: 'tailwindcss' },
                 { name: 'I18N', icon: 'i18n' },
@@ -136,48 +129,33 @@ export const CONFIG: Config = {
                 "Le projet consiste à concevoir et développer une application mobile qui permettra aux clients de trouver des architectes et fournisseurs selon leurs besoins spécifiques (style architectural, catégorie de projet, etc.). Les architectes pourront également chercher des fournisseurs partenaires, et inversement. L'objectif est de créer une plateforme qui centralise ces interactions et simplifie le processus de collaboration",
         },
         {
-            name: 'SaaSStellar',
+            name: 'GlucoCheck',
             icon: 'glucoCheck',
             description:
-                'A modern SaaS landing page template with 12 themes, designed to collect emails for a waitlist.',
-            url: 'https://saasstellar.nader.run/',
+                'Smart Diabetes Management: Real-Time Glucose Monitoring App',
+            url: '',
             tags: [
-                { name: 'Remix', icon: 'remix' },
-                { name: 'TypeScript', icon: 'typescript' },
-                { name: 'Tailwind CSS', icon: 'tailwindcss' },
-                { name: 'shadcn/ui', icon: 'shadcn' },
+                { name: 'React Native', icon: 'react' },
+                { name: 'JavaScript', icon: 'javascript' },
+                { name: 'Redux', icon: 'redux' },
+                { name: 'BLE', icon: 'ble' },
             ],
             featured: true,
-            github: 'https://github.com/stormynight9/saasstellar',
+            testimonial:
+                'This project focused on developing a comprehensive platform consisting of a mobile application and a website, aimed at revolutionizing blood glucose monitoring and analysis for diabetic patients. The main objective of this project is to assist healthcare professionals in providing better care and support to diabetic patients, helping them avoid dangerous blood sugar spikes. The application connects directly with the glucometer, allowing real-time blood glucose levels to be captured. This feature enables healthcare providers to closely monitor patient data and respond swiftly to any anomalies, thus offering a more proactive approach to diabetes management',
         },
         {
             name: 'json-generator',
             icon: 'JG',
-            description:
-                'A tool that helps you label images and save them in local storage.',
+            description: 'A tool that makes creating JSON files easy.',
             url: 'https://json-generator-steel.vercel.app/',
             tags: [
-                { name: 'Next', icon: 'next' },
-                { name: 'TypeScript', icon: 'typescript' },
-                { name: 'Tailwind CSS', icon: 'tailwindcss' },
-                { name: 'shadcn/ui', icon: 'shadcn' },
-            ],
-            featured: false,
-            github: 'https://github.com/stormynight9/gson-image-labelizer',
-        },
-        {
-            name: 'Ranmovanigen',
-            image: '/images/ranmovanigen.png',
-            description:
-                'A Website that uses Anilist API to generate a random anime movie and show its information and trailer.',
-            url: 'https://ranmovanigen.web.app/',
-            featured: false,
-            tags: [
+                { name: 'Vite', icon: 'vite' },
                 { name: 'React', icon: 'react' },
-                { name: 'Tailwind CSS', icon: 'tailwindcss' },
-                { name: 'GraphQL', icon: 'graphQL' },
+                { name: 'JavaScript', icon: 'javascript' },
             ],
-            github: 'https://github.com/stormynight9/random-anime-movie-generator',
+            featured: false,
+            github: 'https://github.com/elayeboussama/jsonGenerator',
         },
     ],
 }
