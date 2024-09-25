@@ -276,6 +276,153 @@ export const Icons = {
             </defs>
         </svg>
     ),
+    archimatch: (props: LucideProps) => (
+        <svg
+            width='80'
+            height='80'
+            viewBox='0 0 80 80'
+            {...props}
+            xmlns='http://www.w3.org/2000/svg'
+        >
+            <g filter='url(#filter0_dd_3956_10601)'>
+                <g clip-path='url(#clip0_3956_10601)'>
+                    <rect
+                        x='20'
+                        y='8'
+                        width='56'
+                        height='56'
+                        rx='8'
+                        fill='url(#paint0_linear_3956_10601)'
+                    />
+                    <mask
+                        id='mask0_3956_10601'
+                        maskUnits='userSpaceOnUse'
+                        x='40'
+                        y='18'
+                        width='16'
+                        height='36'
+                    >
+                        <path
+                            d='M55.9269 18.9268H40.4883V53.1823H55.9269V18.9268Z'
+                            fill='white'
+                        />
+                    </mask>
+                    <g mask='url(#mask0_3956_10601)'>
+                        <mask
+                            id='mask1_3956_10601'
+                            maskUnits='userSpaceOnUse'
+                            x='40'
+                            y='18'
+                            width='16'
+                            height='36'
+                        >
+                            <path
+                                d='M55.9269 18.9268H40.4883V53.1823H55.9269V18.9268Z'
+                                fill='white'
+                            />
+                        </mask>
+                        <g mask='url(#mask1_3956_10601)'>
+                            <path
+                                d='M55.9269 31.627L40.4883 18.9268V25.2774L55.9269 37.8225V31.627Z'
+                                fill='white'
+                            />
+                            <path
+                                d='M55.9268 40.3648V40.8111V44.4816V53.1824H45.6689V41.7212V40.8111V38.7011V37.6358V36.1458V35.7581V31.9258L55.9268 40.3648Z'
+                                fill='#FEFEFE'
+                                fill-opacity='0.5'
+                            />
+                            <path
+                                d='M50.794 42.5508V42.857V46.6677V53.1823H40.5361V43.438V42.857V39.6296V39.0236V38.3318V38.1331V34.1118L45.6651 38.3318L50.794 42.5508Z'
+                                fill='white'
+                            />
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <defs>
+                <filter
+                    id='filter0_dd_3956_10601'
+                    x='0'
+                    y='0'
+                    width='96'
+                    height='96'
+                    filterUnits='userSpaceOnUse'
+                    color-interpolation-filters='sRGB'
+                >
+                    <feFlood flood-opacity='0' result='BackgroundImageFix' />
+                    <feColorMatrix
+                        in='SourceAlpha'
+                        type='matrix'
+                        values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+                        result='hardAlpha'
+                    />
+                    <feMorphology
+                        radius='4'
+                        operator='erode'
+                        in='SourceAlpha'
+                        result='effect1_dropShadow_3956_10601'
+                    />
+                    <feOffset dy='12' />
+                    <feGaussianBlur stdDeviation='12' />
+                    <feComposite in2='hardAlpha' operator='out' />
+                    <feColorMatrix
+                        type='matrix'
+                        values='0 0 0 0 0.568627 0 0 0 0 0.619608 0 0 0 0 0.670588 0 0 0 0.12 0'
+                    />
+                    <feBlend
+                        mode='normal'
+                        in2='BackgroundImageFix'
+                        result='effect1_dropShadow_3956_10601'
+                    />
+                    <feColorMatrix
+                        in='SourceAlpha'
+                        type='matrix'
+                        values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+                        result='hardAlpha'
+                    />
+                    <feOffset />
+                    <feGaussianBlur stdDeviation='1' />
+                    <feComposite in2='hardAlpha' operator='out' />
+                    <feColorMatrix
+                        type='matrix'
+                        values='0 0 0 0 0.568627 0 0 0 0 0.619608 0 0 0 0 0.670588 0 0 0 0.2 0'
+                    />
+                    <feBlend
+                        mode='normal'
+                        in2='effect1_dropShadow_3956_10601'
+                        result='effect2_dropShadow_3956_10601'
+                    />
+                    <feBlend
+                        mode='normal'
+                        in='SourceGraphic'
+                        in2='effect2_dropShadow_3956_10601'
+                        result='shape'
+                    />
+                </filter>
+                <linearGradient
+                    id='paint0_linear_3956_10601'
+                    x1='69.84'
+                    y1='8.56'
+                    x2='22.8'
+                    y2='52.24'
+                    gradientUnits='userSpaceOnUse'
+                >
+                    <stop stop-color='#58CDFF' />
+                    <stop offset='1' stop-color='#11ABEC' />
+                </linearGradient>
+                <clipPath id='clip0_3956_10601'>
+                    <rect
+                        x='20'
+                        y='8'
+                        width='56'
+                        height='56'
+                        rx='8'
+                        fill='white'
+                    />
+                </clipPath>
+            </defs>
+        </svg>
+    ),
     glucoCheck: (props: LucideProps) => (
         <svg
             width='73'
