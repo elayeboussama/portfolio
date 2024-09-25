@@ -75,7 +75,7 @@ const Header = () => {
                         <Tooltip>
                             <TooltipTrigger asChild>
                                 <Link
-                                    href={'https://cal.com/naderferjani/15'}
+                                    href={'https://cal.com/oussamaelayeb/interview'}
                                     target='_blank'
                                     aria-label='Schedule a call'
                                     className={cn(

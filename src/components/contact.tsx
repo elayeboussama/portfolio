@@ -58,7 +58,7 @@ const Contact = () => {
                             <Tooltip>
                                 <TooltipTrigger asChild>
                                     <Link
-                                        href={'https://cal.com/naderferjani/15'}
+                                        href={'https://cal.com/oussamaelayeb/interview'}
                                         target='_blank'
                                         className={cn(
                                             buttonVariants({

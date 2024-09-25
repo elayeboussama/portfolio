@@ -76,7 +76,7 @@ export const CONFIG: Config = {
             icon: 'email',
         },
     ],
-    calendarLink: 'https://cal.com/oussamaelayeb/01',
+    calendarLink: 'https://cal.com/oussamaelayeb/interview',
     description: (
         <>
             Hi, I&apos;m Oussama from Tunisia. I work as a part-time Full-stack
@@ -133,7 +133,7 @@ export const CONFIG: Config = {
             ],
             featured: true,
             testimonial:
-                'Nader was absolutely amazing with the work he did for me. He truly went above and beyond and was super clear, efficient, and very knowledgeable. He thought about pretty much everything related to the project and even thought outside the box to create solutions to any issues. Truly a 10/10 hire. One of my best hired on Upwork. Will definitely be rehiring on future projects.',
+                "Le projet consiste à concevoir et développer une application mobile qui permettra aux clients de trouver des architectes et fournisseurs selon leurs besoins spécifiques (style architectural, catégorie de projet, etc.). Les architectes pourront également chercher des fournisseurs partenaires, et inversement. L'objectif est de créer une plateforme qui centralise ces interactions et simplifie le processus de collaboration",
         },
         {
             name: 'SaaSStellar',
