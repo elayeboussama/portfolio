@@ -119,7 +119,7 @@ export const CONFIG: Config = {
         },
         {
             name: 'Archimatch',
-            image: '/images/archimatch.png ',
+            image: '/images/archimatch.png',
             description:
                 'An app that connects clients with architects and suppliers based on their specific needs.',
             url: '',
