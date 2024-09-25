@@ -45,7 +45,7 @@ export default function Home() {
                 </Button>
             </div>
 
-            <OpenSource />
+            {/* <OpenSource /> */}
         </div>
     )
 }
