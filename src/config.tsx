@@ -1,4 +1,5 @@
-import { Icons } from '@/components/icons'
+import { Icons } from '@/components/icons';
+
 
 type Config = {
     name: string
@@ -39,85 +40,96 @@ type Config = {
 }
 
 export const CONFIG: Config = {
-    name: 'Nader Ferjani',
-    avatar: '/images/author.jpg',
+    name: 'Oussama Elayeb',
+    avatar: '/images/oussama.jpg',
     title: 'Software Engineer',
-    siteUrl: 'https://nader.run/',
+    siteUrl: 'https://oussama-elayeb.com/',
     socials: [
         {
             name: 'GitHub',
-            url: 'https://github.com/stormynight9',
+            url: 'https://github.com/elayeboussama',
+            icon: 'github',
+        },
+        {
+            name: 'GitHub',
+            url: 'https://github.com/guardian-001',
             icon: 'github',
         },
         {
             name: 'LinkedIn',
-            url: 'https://www.linkedin.com/in/nader-ferjani/',
+            url: 'https://www.linkedin.com/in/oussama-elayeb-a853a6219/',
             icon: 'linkedin',
         },
+        // {
+        //     name: 'X',
+        //     url: 'https://x.com/Naderferjani',
+        //     icon: 'x',
+        // },
+        // {
+        //     name: 'Upwork',
+        //     url: 'https://www.upwork.com/freelancers/~0108a6d64ff5b64440',
+        //     icon: 'upwork',
+        // },
         {
-            name: 'X',
-            url: 'https://x.com/Naderferjani',
-            icon: 'x',
-        },
-        {
-            name: 'Upwork',
-            url: 'https://www.upwork.com/freelancers/~0108a6d64ff5b64440',
-            icon: 'upwork',
-        },
-        {
-            name: 'ferjani.nader@hotmail.fr',
-            url: 'mailto:ferjani.nader@hotmail.fr',
+            name: 'oussamaelayeb00@gmail.com',
+            url: 'oussamaelayeb00@gmail.com',
             icon: 'email',
         },
     ],
-    calendarLink: 'https://cal.com/naderferjani/15',
+    calendarLink: 'https://cal.com/oussamaelayeb/01',
     description: (
         <>
-            Hi, I&apos;m Nader from Tunisia. I work as a part-time Full-stack
+            Hi, I&apos;m Oussama from Tunisia. I work as a part-time Full-stack
             Developer at{' '}
             <a
-                href='https://hi-interns.com/'
+                href='https://unow.tn/'
                 target='_blank'
                 className='whitespace-nowrap font-medium text-foreground underline decoration-muted-foreground underline-offset-2'
             >
-                Hi Interns
+                UNOW
                 <Icons.arrowUpRight className='inline-block size-4' />
             </a>
-            . I love building websites with good UI/UX, and I&apos;m also
-            passionate about new technologies, open-source software, and
-            contributing to the community.
+            . I’m a web and mobile full stack developer with a passion for cloud
+            technologies and DevOps. I thrive on solving complex business logic
+            and calculation challenges, always exploring new techniques to
+            improve efficiency. I love integrating cutting-edge tools and
+            optimizing workflows to create robust, scalable applications.
         </>
     ),
-    descriptionRaw: `Hi, I'm Nader from Tunisia.  I work as a part-time Full-stack Developer at Hi Interns. I love building websites with good UI/UX, and I'm also passionate about new technologies, open-source software, and contributing to the community.`,
+    descriptionRaw: ` Hi, I&apos;m Oussama from Tunisia. I work as a part-time Full-stack
+            Developer at UNOW. I’m a web and mobile full stack developer with a passion for cloud
+            technologies and DevOps. I thrive on solving complex business logic
+            and calculation challenges, always exploring new techniques to
+            improve efficiency. I love integrating cutting-edge tools and
+            optimizing workflows to create robust, scalable applications.`,
     projects: [
         {
-            name: 'Hi Interns',
-            icon: 'hiInterns',
+            name: 'UNOW',
+            icon: 'UNOW',
             description:
-                'A platform that connects companies with students who are looking for internships.',
-            url: 'https://hi-interns.com/',
+                'An e-learning platform that encapsulates multiple methods of learning.',
+            url: 'https://unow.tn/',
             tags: [
-                { name: 'Astro', icon: 'astro' },
                 { name: 'React', icon: 'react' },
                 { name: 'TypeScript', icon: 'typescript' },
                 { name: 'Tailwind CSS', icon: 'tailwindcss' },
-                { name: 'Algolia', icon: 'algolia' },
-                { name: 'Remix', icon: 'remix' },
-                { name: 'Clerk', icon: 'clerk' },
-                { name: 'Drizzle', icon: 'drizzle' },
+                { name: 'WebRTC', icon: 'webRTC' },
             ],
             featured: true,
         },
         {
-            name: 'Cosmic Coop',
-            image: '/images/cosmic-coop.webp',
+            name: 'Archimatch',
+            image: '/images/archimatch.png ',
             description:
                 'A website that provides information about the Cosmic Coop game.',
-            url: 'https://cosmiccoop.net/',
+            url: '',
             tags: [
-                { name: 'Astro', icon: 'astro' },
-                { name: 'Preact', icon: 'preact' },
+                { name: 'Expo', icon: 'expo' },
+                { name: 'React Native', icon: 'react' },
                 { name: 'Tailwind CSS', icon: 'tailwindcss' },
+                { name: 'Nativewind', icon: 'tailwindcss' },
+                { name: 'I18N', icon: 'i18n' },
+                { name: 'Obytes', icon: 'obytes' },
             ],
             featured: true,
             testimonial:
