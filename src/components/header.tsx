@@ -27,6 +27,7 @@ const Header = () => {
                                 height={56}
                                 priority={true}
                                 objectFit='cover'
+                                className='object-cover'
                             />
                         </AvatarImage>
                         <AvatarFallback>
