@@ -32,7 +32,7 @@ export default function RootLayout({
         <>
             {process.env.NODE_ENV === 'production' && (
                 <HighlightInit
-                    projectId={'ng2wmv0g'}
+                    projectId={'2d1o697g'}
                     serviceName='my-nextjs-frontend'
                     tracingOrigins
                     networkRecording={{
