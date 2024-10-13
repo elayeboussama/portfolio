@@ -63,7 +63,7 @@ export const CONFIG: Config = {
 
         {
             name: 'oussamaelayeb00@gmail.com',
-            url: 'oussamaelayeb00@gmail.com',
+            url: 'mailto:oussamaelayeb00@gmail.com',
             icon: 'email',
         },
     ],
